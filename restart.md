@@ -1,18 +1,18 @@
-# Restart: Open Amiga
+# Restart: GFOpenAmiga
 
 _Written 6 October 2026 at about 23:55 UTC, while all work is paused on @SacredTrees's word (23:28 UTC). Read this first when work resumes; the newest capsule and the live PR list win if they disagree._
 
 ## What this repo is
 
-The index of the Open family: every Open project, what it does and where it lives.
+The index of the GFOpen family: every GFOpen project, what it does and where it lives.
 
 ## Where it stands
 
-Up to date as of the CONTRIBUTORS.md pass (#1). The family has grown today (OpenEdit, OpenPlay, OpenWrite review, OpenGPU, OpenMUI), so the index may lag.
+Up to date as of the CONTRIBUTORS.md pass (#1). The family has grown today (GFOpenEdit, GFOpenPlay, GFOpenWrite review, GFOpenGPU, GFOpenMUI), so the index may lag.
 
 ## Merged lately
 
-- #1 (2e838a3, 2026-10-06): Credit who made Open Amiga: CONTRIBUTORS.md
+- #1 (2e838a3, 2026-10-06): Credit who made GFOpenAmiga: CONTRIBUTORS.md
 
 ## Open pull requests
 

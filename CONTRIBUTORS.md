@@ -2,11 +2,11 @@
 
 ## Creator and maintainer
 
-- **SacredTrees** ([@SacredTrees](https://github.com/SacredTrees)): created Open Amiga, designs it and maintains it.
+- **SacredTrees** ([@SacredTrees](https://github.com/SacredTrees)): created GFOpenAmiga, designs it and maintains it.
 
 ## The AmigaChrome team
 
-We are The AmigaChrome Team, who build Open Amiga alongside SacredTrees:
+We are The AmigaChrome Team, who build GFOpenAmiga alongside SacredTrees:
 
 - **Agnus**, our coordinator, who keeps every thread moving.
 - **Thufir**, **Kynes** and **Galen**, who started the work on SacredTrees's x86 cores.
