@@ -1,31 +1,31 @@
-# Open Amiga
+# GFOpenAmiga
 
-An index of the Open Amiga family: free software for AmigaOS 3.2 (m68k) from
-the AmigaChrome Team, made for AmigaChrome and usable on real Amigas and PiStorm.
+An index of the GFOpenAmiga family: free software for AmigaOS 3.2 (m68k) from
+the AmigaChrome Team, made for AmiCradle and usable on real Amigas and PiStorm.
 Each project lives in its own repository with its own README and licence.
 
 ## Programs and system parts
 
 | Repository | What it is | State, 4 October 2026 |
 | --- | --- | --- |
-| [openamigasocket](https://github.com/DalsinAI/openamigasocket) | OpenSocket: `bsdsocket.library`, its driver, a Commodity and network tools | Working in AmigaChrome |
-| [openamigamail](https://github.com/DalsinAI/openamigamail) | OpenMail: IMAP/SMTP email client with TLS and OAuth sign-in | In progress |
-| [openamigaprint](https://github.com/DalsinAI/openamigaprint) | OpenPrint: printing stack from `printer.device` to PDF and IPP printers | In progress |
-| [openamigabrowser](https://github.com/DalsinAI/openamigabrowser) | OpenBrowser: WebKit-based web browser (68040 with FPU) | In progress |
-| [openamigawrite](https://github.com/DalsinAI/openamigawrite) | OpenWrite: word processor that opens and saves DOCX and ODT and opens the Amiga word processors' documents; `C:OWConvert` converts on any Amiga | In progress |
-| [openamigartg](https://github.com/DalsinAI/openamigartg) | OpenRTG: RTG graphics system with `openrtg.library`, OpenGPU and Warp3D | In progress |
-| [openamigamedia](https://github.com/DalsinAI/openamigamedia) | OpenMedia: `openmedia.library` for hardware video decode and encode | Designed |
+| [openamigasocket](https://github.com/DalsinAI/openamigasocket) | GFOpenSocket: `bsdsocket.library`, its driver, a Commodity and network tools | Working in AmiCradle |
+| [openamigamail](https://github.com/DalsinAI/openamigamail) | GFOpenMail: IMAP/SMTP email client with TLS and OAuth sign-in | In progress |
+| [openamigaprint](https://github.com/DalsinAI/openamigaprint) | GFOpenPrint: printing stack from `printer.device` to PDF and IPP printers | In progress |
+| [openamigabrowser](https://github.com/DalsinAI/openamigabrowser) | GFOpenBrowser: WebKit-based web browser (68040 with FPU) | In progress |
+| [openamigawrite](https://github.com/DalsinAI/openamigawrite) | GFOpenWrite: word processor that opens and saves DOCX and ODT and opens the Amiga word processors' documents; `C:OWConvert` converts on any Amiga | In progress |
+| [openamigartg](https://github.com/DalsinAI/openamigartg) | GFOpenRTG: RTG graphics system with `gfopenrtg.library`, GFOpenGPU and Warp3D | In progress |
+| [openamigamedia](https://github.com/DalsinAI/openamigamedia) | GFOpenMedia: `gfopenmedia.library` for hardware video decode and encode | Designed |
 | [openamigavlc](https://github.com/DalsinAI/openamigavlc) | Unofficial VLC media player port | Planned |
-| [openamigaprefs](https://github.com/DalsinAI/openamigaprefs) | OpenPrefs: GadTools preferences editors | Designed |
-| [openamigamulticore](https://github.com/DalsinAI/openamigamulticore) | OpenMulticore: spec and library for running jobs on extra cores | Specified |
+| [openamigaprefs](https://github.com/DalsinAI/openamigaprefs) | GFOpenPrefs: GadTools preferences editors | Designed |
+| [openamigamulticore](https://github.com/DalsinAI/openamigamulticore) | GFOpenMulticore: spec and library for running jobs on extra cores | Specified |
 
 ## Library ports
 
-Open-source libraries ported to AmigaOS 3.2 (m68k), first for OpenBrowser.
+Open-source libraries ported to AmigaOS 3.2 (m68k), first for GFOpenBrowser.
 Each repository holds the Amiga build (script, patches, configuration), a
 smoke test with its output, and the library's upstream licence; the Amiga
 changes are MIT. "Working" means it builds and its smoke test passed on
-AmigaOS 3.2.3 under AmigaChrome; none has been run on real hardware yet.
+AmigaOS 3.2.3 under AmiCradle; none has been run on real hardware yet.
 
 | Repository | Library | Version | State, 4 October 2026 |
 | --- | --- | --- | --- |
@@ -43,10 +43,10 @@ AmigaOS 3.2.3 under AmigaChrome; none has been run on real hardware yet.
 ## Datatypes
 
 Datatypes the project builds, so any datatypes program (MultiView,
-OpenBrowser, a picture viewer) opens more formats. They all live in
+GFOpenBrowser, a picture viewer) opens more formats. They all live in
 [openamigaimage](https://github.com/DalsinAI/openamigaimage)'s `Datatypes`
 drawer, are built for the 68040 (no FPU instructions), and decode on AmigaOS 3.2.3
-under AmigaChrome exactly as their libraries do on x86 cores; none has been run on
+under AmiCradle exactly as their libraries do on x86 cores; none has been run on
 real hardware yet.
 
 | Datatype | Opens | Built on | State, 4 October 2026 |
@@ -54,11 +54,11 @@ real hardware yet.
 | `webp.datatype` | WebP pictures: lossy, lossless, alpha (first frame of an animated one) | libwebp 1.6.0 (openamigamedialibrary) | Working |
 | `webm.datatype` | WebM video, VP8 and VP9, as an animation in 256 colours; no sound yet | libvpx 1.17.0 (openamigamedialibrary) | Frames decode; playback in MultiView not yet checked |
 
-## AmigaChrome tools
+## AmiCradle tools
 
 | Repository | What it is |
 | --- | --- |
-| [amigachrome-stoves](https://github.com/DalsinAI/amigachrome-stoves) | Cross-compiler toolchains used by AmigaChrome's Kitchen |
+| [amigachrome-stoves](https://github.com/DalsinAI/amigachrome-stoves) | Cross-compiler toolchains used by AmiCradle's Kitchen |
 | [amigachrome-gameports](https://github.com/DalsinAI/amigachrome-gameports) | Game ports and compatibility work for m68k AROS |
 
 ## Licence
@@ -69,4 +69,4 @@ code keep their upstream licences, as each repository states.
 
 ## Contributors
 
-Open Amiga is created and maintained by [SacredTrees](https://github.com/SacredTrees) with The AmigaChrome Team, copyright AmigaChrome Team. Everyone whose work it includes is credited in [`CONTRIBUTORS.md`](CONTRIBUTORS.md).
+GFOpenAmiga is created and maintained by [SacredTrees](https://github.com/SacredTrees) with The AmigaChrome Team, copyright AmigaChrome Team. Everyone whose work it includes is credited in [`CONTRIBUTORS.md`](CONTRIBUTORS.md).
