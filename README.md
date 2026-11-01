@@ -1,7 +1,7 @@
 # GFOpenAmiga
 
 An index of the GFOpenAmiga family: free software for AmigaOS 3.2 (m68k) from
-the AmigaChrome Team, made for AmiCradle and usable on real Amigas and PiStorm.
+the AmiCradle Team, made for AmiCradle and usable on real Amigas and PiStorm.
 Each project lives in its own repository with its own README and licence.
 
 ## Programs and system parts
@@ -63,10 +63,10 @@ real hardware yet.
 
 ## Licence
 
-This index is MIT licensed (`LICENSE`, Copyright (c) 2026 AmigaChrome Team).
-AmigaChrome Team's own projects are MIT; library ports and other third-party
+This index is MIT licensed (`LICENSE`, Copyright (c) 2026 AmiCradle Team).
+AmiCradle Team's own projects are MIT; library ports and other third-party
 code keep their upstream licences, as each repository states.
 
 ## Contributors
 
-GFOpenAmiga is created and maintained by [SacredTrees](https://github.com/SacredTrees) with The AmigaChrome Team, copyright AmigaChrome Team. Everyone whose work it includes is credited in [`CONTRIBUTORS.md`](CONTRIBUTORS.md).
+GFOpenAmiga is created and maintained by [SacredTrees](https://github.com/SacredTrees) with The AmiCradle Team, copyright AmiCradle Team. Everyone whose work it includes is credited in [`CONTRIBUTORS.md`](CONTRIBUTORS.md).
