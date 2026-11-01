@@ -12,7 +12,7 @@ Each project lives in its own repository with its own README and licence.
 | [openamigamail](https://github.com/DalsinAI/openamigamail) | GFOpenMail: IMAP/SMTP email client with TLS and OAuth sign-in | In progress |
 | [openamigaprint](https://github.com/DalsinAI/openamigaprint) | GFOpenPrint: printing stack from `printer.device` to PDF and IPP printers | In progress |
 | [openamigabrowser](https://github.com/DalsinAI/openamigabrowser) | GFOpenBrowser: WebKit-based web browser (68040 with FPU) | In progress |
-| [openamigawrite](https://github.com/DalsinAI/openamigawrite) | GFOpenWrite: word processor that opens and saves DOCX and ODT and opens the Amiga word processors' documents; `C:OWConvert` converts on any Amiga | In progress |
+| [gfoffice](https://github.com/DalsinAI/gfoffice) | The GFOffice Suite: OpenWrite, the word processor that opens and saves DOCX and ODT and opens the Amiga word processors' documents; `C:OWConvert` converts on any Amiga | In progress |
 | [openamigartg](https://github.com/DalsinAI/openamigartg) | GFOpenRTG: RTG graphics system with `gfopenrtg.library`, GFOpenGPU and Warp3D | In progress |
 | [openamigamedia](https://github.com/DalsinAI/openamigamedia) | GFOpenMedia: `gfopenmedia.library` for hardware video decode and encode | Designed |
 | [openamigavlc](https://github.com/DalsinAI/openamigavlc) | Unofficial VLC media player port | Planned |
