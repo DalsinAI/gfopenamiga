@@ -8,16 +8,16 @@ Each project lives in its own repository with its own README and licence.
 
 | Repository | What it is | State, 4 October 2026 |
 | --- | --- | --- |
-| [openamigasocket](https://github.com/DalsinAI/openamigasocket) | GFOpenSocket: `bsdsocket.library`, its driver, a Commodity and network tools | Working in AmiCradle |
-| [openamigamail](https://github.com/DalsinAI/openamigamail) | GFOpenMail: IMAP/SMTP email client with TLS and OAuth sign-in | In progress |
-| [openamigaprint](https://github.com/DalsinAI/openamigaprint) | GFOpenPrint: printing stack from `printer.device` to PDF and IPP printers | In progress |
-| [openamigabrowser](https://github.com/DalsinAI/openamigabrowser) | GFOpenBrowser: WebKit-based web browser (68040 with FPU) | In progress |
+| [gfopensocket](https://github.com/DalsinAI/gfopensocket) | GFOpenSocket: `bsdsocket.library`, its driver, a Commodity and network tools | Working in AmiCradle |
+| [gfopenmail](https://github.com/DalsinAI/gfopenmail) | GFOpenMail: IMAP/SMTP email client with TLS and OAuth sign-in | In progress |
+| [gfopenprint](https://github.com/DalsinAI/gfopenprint) | GFOpenPrint: printing stack from `printer.device` to PDF and IPP printers | In progress |
+| [gfopenbrowser](https://github.com/DalsinAI/gfopenbrowser) | GFOpenBrowser: WebKit-based web browser (68040 with FPU) | In progress |
 | [gfoffice](https://github.com/DalsinAI/gfoffice) | The GFOffice Suite: OpenWrite, the word processor that opens and saves DOCX and ODT and opens the Amiga word processors' documents; `C:OWConvert` converts on any Amiga | In progress |
-| [openamigartg](https://github.com/DalsinAI/openamigartg) | GFOpenRTG: RTG graphics system with `gfopenrtg.library`, GFOpenGPU and Warp3D | In progress |
-| [openamigamedia](https://github.com/DalsinAI/openamigamedia) | GFOpenMedia: `gfopenmedia.library` for hardware video decode and encode | Designed |
-| [openamigavlc](https://github.com/DalsinAI/openamigavlc) | Unofficial VLC media player port | Planned |
-| [openamigaprefs](https://github.com/DalsinAI/openamigaprefs) | GFOpenPrefs: GadTools preferences editors | Designed |
-| [openamigamulticore](https://github.com/DalsinAI/openamigamulticore) | GFOpenMulticore: spec and library for running jobs on extra cores | Specified |
+| [gfopenrtg](https://github.com/DalsinAI/gfopenrtg) | GFOpenRTG: RTG graphics system with `gfopenrtg.library`, GFOpenGPU and Warp3D | In progress |
+| [gfopenmedia](https://github.com/DalsinAI/gfopenmedia) | GFOpenMedia: `gfopenmedia.library` for hardware video decode and encode | Designed |
+| [gfopenvlc](https://github.com/DalsinAI/gfopenvlc) | Unofficial VLC media player port | Planned |
+| [gfopenprefs](https://github.com/DalsinAI/gfopenprefs) | GFOpenPrefs: GadTools preferences editors | Designed |
+| [gfopenmulticore](https://github.com/DalsinAI/gfopenmulticore) | GFOpenMulticore: spec and library for running jobs on extra cores | Specified |
 
 ## Library ports
 
@@ -29,37 +29,37 @@ AmigaOS 3.2.3 under AmiCradle; none has been run on real hardware yet.
 
 | Repository | Library | Version | State, 4 October 2026 |
 | --- | --- | --- | --- |
-| [openamigacurl](https://github.com/DalsinAI/openamigacurl) | libcurl, with TLS through AmiSSL | 8.22.0 | Working |
-| [openamigacairo](https://github.com/DalsinAI/openamigacairo) | cairo and pixman | 1.18.6, 0.46.4 | Working |
-| [openamigafreetype](https://github.com/DalsinAI/openamigafreetype) | FreeType | 2.14.3 | Working |
-| [openamigaharfbuzz](https://github.com/DalsinAI/openamigaharfbuzz) | HarfBuzz | 14.5.1 | Working |
-| [openamigafontconfig](https://github.com/DalsinAI/openamigafontconfig) | Fontconfig | 2.18.3 | Working |
-| [openamigaxml](https://github.com/DalsinAI/openamigaxml) | libxml2 and Expat | 2.15.4, 2.8.2 | Working |
-| [openamigaimage](https://github.com/DalsinAI/openamigaimage) | zlib, libpng and libjpeg; the project's datatypes (below) | 1.3.1, 1.6.58, 9f | Working |
-| [openamigamedialibrary](https://github.com/DalsinAI/openamigamedialibrary) | libwebp and libvpx (WebP pictures, VP8 and VP9 video), decoders only and without FPU code | 1.6.0, 1.17.0 | Working |
-| [openamigasqlite](https://github.com/DalsinAI/openamigasqlite) | SQLite | 3.53.4 | Working |
-| [openamigapsl](https://github.com/DalsinAI/openamigapsl) | libpsl (Public Suffix List) | 0.23.3 | Working |
+| [gfopencurl](https://github.com/DalsinAI/gfopencurl) | libcurl, with TLS through AmiSSL | 8.22.0 | Working |
+| [gfopencairo](https://github.com/DalsinAI/gfopencairo) | cairo and pixman | 1.18.6, 0.46.4 | Working |
+| [gfopenfreetype](https://github.com/DalsinAI/gfopenfreetype) | FreeType | 2.14.3 | Working |
+| [gfopenharfbuzz](https://github.com/DalsinAI/gfopenharfbuzz) | HarfBuzz | 14.5.1 | Working |
+| [gfopenfontconfig](https://github.com/DalsinAI/gfopenfontconfig) | Fontconfig | 2.18.3 | Working |
+| [gfopenxml](https://github.com/DalsinAI/gfopenxml) | libxml2 and Expat | 2.15.4, 2.8.2 | Working |
+| [gfopenimage](https://github.com/DalsinAI/gfopenimage) | zlib, libpng and libjpeg; the project's datatypes (below) | 1.3.1, 1.6.58, 9f | Working |
+| [gfopenmedialibrary](https://github.com/DalsinAI/gfopenmedialibrary) | libwebp and libvpx (WebP pictures, VP8 and VP9 video), decoders only and without FPU code | 1.6.0, 1.17.0 | Working |
+| [gfopensqlite](https://github.com/DalsinAI/gfopensqlite) | SQLite | 3.53.4 | Working |
+| [gfopenpsl](https://github.com/DalsinAI/gfopenpsl) | libpsl (Public Suffix List) | 0.23.3 | Working |
 
 ## Datatypes
 
 Datatypes the project builds, so any datatypes program (MultiView,
 GFOpenBrowser, a picture viewer) opens more formats. They all live in
-[openamigaimage](https://github.com/DalsinAI/openamigaimage)'s `Datatypes`
+[gfopenimage](https://github.com/DalsinAI/gfopenimage)'s `Datatypes`
 drawer, are built for the 68040 (no FPU instructions), and decode on AmigaOS 3.2.3
 under AmiCradle exactly as their libraries do on x86 cores; none has been run on
 real hardware yet.
 
 | Datatype | Opens | Built on | State, 4 October 2026 |
 | --- | --- | --- | --- |
-| `webp.datatype` | WebP pictures: lossy, lossless, alpha (first frame of an animated one) | libwebp 1.6.0 (openamigamedialibrary) | Working |
-| `webm.datatype` | WebM video, VP8 and VP9, as an animation in 256 colours; no sound yet | libvpx 1.17.0 (openamigamedialibrary) | Frames decode; playback in MultiView not yet checked |
+| `webp.datatype` | WebP pictures: lossy, lossless, alpha (first frame of an animated one) | libwebp 1.6.0 (gfopenmedialibrary) | Working |
+| `webm.datatype` | WebM video, VP8 and VP9, as an animation in 256 colours; no sound yet | libvpx 1.17.0 (gfopenmedialibrary) | Frames decode; playback in MultiView not yet checked |
 
 ## AmiCradle tools
 
 | Repository | What it is |
 | --- | --- |
-| [amigachrome-stoves](https://github.com/DalsinAI/amigachrome-stoves) | Cross-compiler toolchains used by AmiCradle's Kitchen |
-| [amigachrome-gameports](https://github.com/DalsinAI/amigachrome-gameports) | Game ports and compatibility work for m68k AROS |
+| [amicradle-stoves](https://github.com/DalsinAI/amicradle-stoves) | Cross-compiler toolchains used by AmiCradle's Kitchen |
+| [amicradle-gameports](https://github.com/DalsinAI/amicradle-gameports) | Game ports and compatibility work for m68k AROS |
 
 ## Licence
 
